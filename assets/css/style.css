@@ -1,0 +1,175 @@
+/* Define a cor de fundo da página e a cor do texto */
+body {
+    background: #2f4f4f;
+    color: #ffffff;
+}
+
+/* Estiliza o cabeçalho principal */
+.cabecalho {
+    padding: 10px 0 0 60px;
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #a77e34;
+}
+
+/* Define o tamanho da fonte e cor de títulos dentro do cabeçalho */
+.cabecalho span {
+    font-size: 30px;
+    color: #00ABF0;
+}
+
+/* Aplica o estilo e tamanho da fonte na tag "small" */
+#inicio small {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 5px;
+    color: #c0f10c;
+}
+/* Define posições de navegação */
+.cabecalho nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 140px;
+    margin-bottom: 70px;
+
+}
+/* Define tamanhos de imagem */
+.cabecalho nav img {
+    width: 350px;
+    height: 354px;
+}
+
+/* Estiliza os links da lista dentro da barra de navegação */
+.barra_navegacao li a {
+    display: block;
+    color: #00ABF0;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+/* Remove os marcadores da lista de navegação */
+.barra_navegacao ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+/* Estilo do link com ID "inicio" */
+#inicio {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Define estilos dentro da barra de navegação */
+.barra_navegacao a{
+    color: #ffffff;
+    padding: 10px 60px 0 0;
+    font-size: 20px;
+}
+
+/* Define o estilo da área principal do conteúdo */
+.conteudo_principal{
+    padding-left: 60px;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+/* Tamanho da fonte do cabeçalho dentro do conteúdo principal*/
+.conteudo_principal h1 {
+    font-size: 30px;
+    color: #00ABF0;
+}
+
+/* Tamanho da fonte do parágrafo dentro do conteúdo principal*/
+.conteudo_principal p {
+    font-size: 16px;
+}
+
+/* Defenindo cor vermelho as palavras em negrito */
+.secao_principal strong {
+    color: #c0f10c;
+}
+/* Estilo dos títulos da seção secundária (educação e habilidades) */
+.secao_secundaria h1 {
+    font-size: 30px;
+}
+
+/* Defenindo cor vermelho as palavras em negrito seção secundária */
+.secao_secundaria strong {
+    color: #c0f10c;
+}
+
+.secao_secundaria ul {
+    list-style-type: none;
+}
+
+/* Definindo posições do formulário */
+.formulario {
+    max-width: 500px;
+    margin: auto;
+    padding: 32px;
+}
+
+/* Estilos do título do formulário */
+.formulario h1 {
+    margin-bottom: 25px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 30px;
+    color: #00ABF0;
+}
+
+/* Definindo estilos do formulário */
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Definindo estilos na tag input */
+.formulario form input {
+    padding: 8px;
+    border: 1px solid;
+    margin-bottom: 16px;
+}
+
+/* Definindo estilos na tag textarea */
+.formulario form textarea {
+    min-height: 150px;
+    border: 1px solid;
+}
+
+/* Definindo estilos na tag button */
+.formulario form button {
+    padding: 8px 44px;
+    margin: 16px auto 0;
+    background-color: #00ABF0;
+    color: #ffffff;
+    border: 1px solid;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #a77e34;
+}
+
+/* Estiliza os links dentro do rodapé*/
+.rodape-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rodape a {
+    color: #c0f10c;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Estiliza texto na tag parágrafo*/
+.rodape p {
+    margin: auto;
+    margin-left: 608px;
+}
