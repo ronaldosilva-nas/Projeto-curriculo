@@ -64,7 +64,6 @@ body {
 
 /* Define estilos dentro da barra de navegação */
 .barra_navegacao a{
-    color: #ffffff;
     padding: 10px 60px 0 0;
     font-size: 20px;
 }
@@ -170,6 +169,25 @@ body {
 
 /* Estiliza texto na tag parágrafo*/
 .rodape p {
-    margin: auto;
-    margin-left: 608px;
+    text-align: center;
+}
+
+/* Uso de Media Queries para responsividade do cabeçalho, menu e imagem */
+@media screen and (max-width: 768px) {
+    .cabecalho nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .cabecalho nav ul {
+        margin-bottom: 20px;
+    }
+
+    .cabecalho nav img {
+        width: 200px;   
+        height: auto;
+        margin-top: 20px;
+    }
 }
